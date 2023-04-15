@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #E5E5E5;
+}
+
+body::before {
+  content: '';
+  width: 100%;
+  height: 368px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: #535971;
+}
+
+.page{
+  width: 750px;
+  margin: auto;
+}
+
+
+fieldset{
+  border: none;  
+}
+
+#nomecompleto{
+display: flex;
+gap: 22px ;
+}
+
+#nomecompleto .input-wrapper{
+  width: 300px;
+  
+}
+
+header{
+  margin-top: 140px;
+  margin-bottom: 58px;
+  color: #fff;
+}
+h1{
+  font-family: 'Staatliches';
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+  margin-bottom: 18px;
+  
+}
+
+p{
+  font-family: 'Poppins';
+  font-size: 20px;
+  line-height: 30px;
+  width: 417px;
+  
+}
+
+form{
+  background-color: white;
+  border-radius: 8px 8px 0 0 ;
+  padding: 64px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  min-height: 300px;
+
+}
+
+.input-wrapper label span {
+  font-family: 'Poppins';
+  font-size: 12px;
+  line-height: 20px;
+  color: #C1BCCC;
+}
+
+.input-wrapper label span:hover {
+  color: #9b98a3;
+}
+.fieldset-wrapper legend{
+  font-family: 'Staatliches';
+  font-size: 24px;
+  line-height: 34px;
+  color: #535971; 
+  border-bottom: 1px solid #E6E6F0;
+  margin-bottom: 20px;
+  
+
+}
+
+
+.input-wrapper label{
+  font-family: 'Poppins';
+  font-size: 14px;
+  line-height: 24px;
+  color: #4E4958;
+  margin-top: 16px;
+  margin-bottom: 8px;
+ 
+
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper input{
+ 
+  background: #FAFAFC;
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+  height: 56px;
+
+  font-family: 'Poppins';
+
+  font-size: 12px;
+  line-height: 20px;
+  color: #a29fa8;
+  padding: 10px;
+}
+
+
+.numeromentoria{
+  font-family: 'Staatliches';
+  font-size: 20px;
+  line-height: 34px;
+  color: #535971;
+  }
+
+.col-3{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  
+}
+.col-3 > div:nth-child(1) {
+  width: 300px;
+  padding-right: 22px;
+  gap: 0;
+
+}
+
+.col-3 .input-wrapper{
+  width: 33%;
+}
+
+footer{
+  background: #535971;
+  border-radius: 0px 0px 20px 20px;
+  width: 750px;
+  height: 160px;
+  margin-bottom: 366px;
+
+  display: flex;
+  align-items: center;
+}
+
+.button{
+
+  width: 608px;
+  height: 56px;
+
+  display: flex;
+  align-items: center;
+  
+  justify-content: center;
+  border: none;
+  background: #FF5374;
+  border-radius: 20px;
+  margin: auto;
+  
+
+  font-family: 'Staatliches';
+  font-size: 20px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+.numeromentoria{
+margin-top: 16px;
+}
+
+.numeromentoria label{
+  margin-bottom: 8px;
+}
+
+.button:hover{
+  background: #d1425f;
+}
+
+input:invalid {
+  border: 1px solid pink;
+}
+
